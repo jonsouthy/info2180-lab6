@@ -4,6 +4,8 @@ window.onload = function (){
     onL.addEventListener("click", display);
     var sb = document.getElementById("sall");
     sb.addEventListener("click",displayAll);
+    
+
 }
 
 
@@ -32,3 +34,5 @@ function displayAll(){
     request.open("GET","request.php?q=all=true",true);
     request.send();
 }   
+
+
